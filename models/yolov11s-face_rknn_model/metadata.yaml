@@ -1,0 +1,12 @@
+stride: 32
+task: detect
+batch: 1
+imgsz:
+- 640
+- 640
+names:
+  0: face
+args:
+  batch: 1
+  name: rk3588
+channels: 3
